@@ -10,7 +10,7 @@ import { TodosModule } from './todos/todos.module';
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),
-    MongooseModule.forRoot('mongodb://localhost:27017/easy-generator'),
+    MongooseModule.forRoot(process.env.MONGO_URI || "mongodb://localhost:27017/nest"),
     UsersModule,
     AuthModule,
     TodosModule

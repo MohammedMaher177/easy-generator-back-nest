@@ -28,7 +28,7 @@ export class AuthService {
       if (!token) {
         throw new ForbiddenException('No token provided');
       }
-      const payload: IAccessTokenPayload = await this.jwtService.verify(token, { secret: process.env.JWT_SECRET });
+      const payload: IAccessTokenPayload = await this.jwtService.verify(token, { secret: process.env.JWT_SECRET || "JWT_SECRET" });
       return payload;
     } catch (error) {
       throw new UnauthorizedException('Invalid token');
