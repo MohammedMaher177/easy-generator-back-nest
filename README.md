@@ -1,7 +1,7 @@
-# Easy Generator BACKEND Nest JS
+# Easy Generator Back Nest
 
 ## Introduction
-Easy Generator BACKEND Nest JS is a project designed to [provide a brief description of what your project does]. This project is built using TypeScript and JavaScript, focusing on delivering a robust and efficient solution for [mention the primary problem the project solves or the main feature it offers].
+Easy Generator Back Nest is a project designed to [provide a brief description of what your project does]. This project is built using [mention the primary technologies, e.g., NestJS, TypeScript], focusing on delivering a robust and efficient solution for [mention the primary problem the project solves or the main feature it offers].
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -18,8 +18,8 @@ Easy Generator BACKEND Nest JS is a project designed to [provide a brief descrip
 - Feature 3: [Describe the feature]
 
 ## Technologies Used
-- TypeScript (97.5%)
-- JavaScript (2.5%)
+- [NestJS]
+- [TypeScript]
 - [Other libraries or frameworks you are using]
 
 ## Installation
@@ -27,5 +27,5 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/MohammedMaher177/easy-generator-front-react.git
-   cd easy-generator-front-react
+   git clone https://github.com/MohammedMaher177/easy-generator-back-nest.git
+   cd easy-generator-back-nest
