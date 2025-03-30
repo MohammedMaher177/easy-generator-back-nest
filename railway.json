@@ -1,0 +1,14 @@
+{
+    "buildCommand": "yarn install && yarn build",
+    "startCommand": "node dist/main.js",
+    "variables": {
+        "NODE_ENV": "production",
+        "PORT": "3001",
+        "DATABASE_URL": {
+            "generator": "postgresql"
+        },
+        "JWT_SECRET": {
+            "generator": "secret"
+        }
+    }
+}
