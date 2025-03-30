@@ -46,4 +46,8 @@ export class AuthService {
     const user = await this.usersService.create(userDto);
     return this.login(user);
   }
+
+  async getUserByID(id: string) {
+    return this.usersService.findById(id);
+  }
 }
