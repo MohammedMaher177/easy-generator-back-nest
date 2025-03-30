@@ -1,5 +1,5 @@
 {
-    "buildCommand": "yarn install && yarn build",
+    "buildCommand": "yarn install && NODE_ENV=production yarn build",
     "startCommand": "node dist/main.js",
     "variables": {
         "NODE_ENV": "production",
