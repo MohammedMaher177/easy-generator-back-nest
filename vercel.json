@@ -5,12 +5,6 @@
         "runtime": "vercel-node@canary"
       }
     },
-    "builds": [
-      {
-        "src": "api/index.ts",
-        "use": "@vercel/node"
-      }
-    ],
     "routes": [
       {
         "src": "/(.*)",
