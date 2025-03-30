@@ -65,10 +65,7 @@ Easy Generator Back Nest is a project designed to [provide a brief description o
 - **TypeScript:** A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 - **Mongoose:** A MongoDB object modeling tool designed to work in an asynchronous environment.
 - **bcryptjs:** A library to help you hash passwords.
-- **RxJS:** A reactive programming library for JavaScript.
 - **dotenv:** A module that loads environment variables from a `.env` file into `process.env`.
-- **Jest:** A delightful JavaScript testing framework with a focus on simplicity.
-- **Supertest:** A library for testing HTTP servers.
 
 ## Installation
 
